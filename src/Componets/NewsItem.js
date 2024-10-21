@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export class NewsItem extends Component {
   render() {
-    let {title , description , Imageurl , NewsUrl } = this.props;
+    let {title , description , Imageurl , NewsUrl } = this.props; 
     return (
       <div>
         <div className="card" style={{width: "18rem"}}>

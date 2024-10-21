@@ -52,7 +52,7 @@ export class News extends Component {
        }
        componentDidMount(){
         console.log("compountdidmount latest news")
-       let url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=d34c14befe564593a9ff507a97d7466e"  ; 
+    //    let url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=d34c14befe564593a9ff507a97d7466e"  ; 
        }
   render() {
     return (
